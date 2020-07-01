@@ -1,11 +1,14 @@
 export default {
+  STRIPE_KEY: "pk_test_OAJG8nJdRR9wvEkvAwdm9gKg00Guw3XIzW",
+
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "eu-west-2",
     BUCKET: "ceci-notes-app",
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "https://54i2orbedc.execute-api.us-east-2.amazonaws.com/prod/",
+    URL: "https://54i2orbedc.execute-api.us-east-2.amazonaws.com/prod",
   },
   cognito: {
     REGION: "us-east-2",
