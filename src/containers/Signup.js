@@ -72,12 +72,6 @@ export default function Signup() {
     }
   }
 
-  async function handleConfirmationSubmit(event) {
-    event.preventDefault();
-
-    setIsLoading(true);
-  }
-
   function renderConfirmationForm() {
     return (
       <form onSubmit={handleConfirmationSubmit}>
